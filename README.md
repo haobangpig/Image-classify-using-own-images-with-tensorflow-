@@ -16,7 +16,7 @@
 
 
 ####Step one:
-  Using google or baidu or anything you can, try to search everything about the four key words that we will use in this project.
+  #####Using google or baidu or anything you can, try to search everything about the four key words that we will use in this project.
   Key Concept:
   * Deep Learning & Neural Network
   * Softmax Regression 
@@ -24,7 +24,7 @@
   * CNN(Convolutional Neural Network)
 
 ####Review:
-  Pleae use your own language to illustrate:
+  #####Pleae use your own language to illustrate:
   
   (If you can make the others who never hear these concepts to understand with a simple example, that mean you had already understand these.)
   * What is the Deep learning & Neural Network
@@ -35,7 +35,7 @@
   
   
 ####Step two:
-  Go to The tensorflow tutorial website and download the original the code and try to understand each of line.
+  #####Go to The tensorflow tutorial website and download the original the code and try to understand each of line.
 
   You may follow some steps in here to understand more about the tensorflow
   * Hello
