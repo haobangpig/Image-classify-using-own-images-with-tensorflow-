@@ -25,6 +25,7 @@
 
 ####Review:
   Pleae use your own language to illustrate:
+  
   (If you can make the others who never hear these concepts to understand with a simple example, that mean you had already understand these.)
   * What is the Deep learning & Neural Network
   * How to create the Softmax Regression Model 
@@ -35,6 +36,7 @@
   
 ####Step two:
   Go to The tensorflow tutorial website and download the original the code and try to understand each of line.
+
   You may follow some steps in here to understand more about the tensorflow
   * Hello
   * Softmax Regression 
