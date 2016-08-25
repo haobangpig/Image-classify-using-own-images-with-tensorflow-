@@ -1,13 +1,13 @@
 # Image classify using own images with tensorflow
 
 ####Introduction:
-  If you are the new user in tensorflow (just like me two weeks ago), you can see what the fantasty functions in [here] (https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html)
+  If you are the new user in tensorflow (just like me two weeks ago), you can see what is the fantasty feature in [here] (https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html)
   
   I have already test it:
   ![alt tag](https://github.com/haobangpig/Image-classify-using-own-images-with-tensorflow-/blob/master/images/lion_classify.png)
   
   It is quit easy, just installed the tensorflow and see the [website] (https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html) . Running at your terminal.
-  But how to input your own images and output the possibility after training it.
+  But how to input your own images and  and output the possibility after training it.
   
   So in this project, it will make a really simple demonstrate about it.
   
@@ -23,6 +23,7 @@
 |3|Modify the basic tutorial (MNIST) to output the prediction and each of the labels possibility |
 |4|Reformat the images(JPEG or PNG) to the specification format|
 |5|Using step three's function to output the result|
+
 
 
 ####Step one:
@@ -56,10 +57,11 @@
   * [Output the result and possibilty] (https://github.com/tensorflow/tensorflow/issues/97)
 
 
+
 ####Step Three: Understand this example and edit the output as you wish
 #####*In this step, it is really important in this project and it will help you to understand what is the structure in the tensorflow.*
 
-##### At the beginning, I wanna use its own test data and output the possibility after I insert a test image. But I was totally no idea how to do it. But luckly, I found this blog: [Using TensorFlow to create your own handwriting recognition engine] (https://niektemme.com/2016/02/21/tensorflow-handwriting/). Thanks the writer(Niek Temme) who help me solved this problem. And I add some functions in his source code to content with my demand.  
+##### At the beginning, I wanna use its own test data and output the possibility after I insert a test image. But I was totally no idea how to do it. But luckly, I found this blog: [Using TensorFlow to create your own handwriting recognition engine] (https://niektemme.com/2016/02/21/tensorflow-handwriting/). Thanks the writer(Niek Temme) who help me solved this problem. I just directly upload his code on this project. Above that, I add some functions in his source code to content with my demand.  
 
 
 The logical in the source core is quite sample, I will illustrate with the pseudocode and you may check the source code in
@@ -101,5 +103,22 @@ And the result will be like this :
   
 
 
+####Step Four:
+#####*In this step, you need to know the CNN and how it works.*
+Check this [course](https://www.udacity.com/course/deep-learning--ud730)to understand more about the CNN.
+And check the assignment('Assignment one' and 'Assignment four') in this course.
+'The assignment one' are the great example to illustrate how to convert the images to the dataset and store into the .pickle file.
+'The assignment four' give the example that how to set the dataset to the images shape. See the source code and you may understand.
+'The assignment one' use these labels ={'A','B','C','D','E','F','G','H','I','J'}. In each of the label, there are bunchs of jpg or png format on it. So you can change the label name to your label and put a plenty of the images on it.
 
 
+
+####Step Five:
+#####*In this step, We just need to use the step three souce code and add them in 'The assignment Four'. And we will got what we want.*
+
+See the source code and you may understand it. But please notice that if you input a image that you wanna test, it may have some problems. If that happened, please use the imageprepare() function in step three to reformat the input image. 
+
+![alt tag](https://github.com/haobangpig/Image-classify-using-own-images-with-tensorflow-/blob/master/images/The%20last%20result.png)
+Good luck for everything.
+
+If you wanna contact me, try this way : haobangpig@gmail.com
