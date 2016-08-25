@@ -116,7 +116,12 @@ And check the assignment('Assignment one' and 'Assignment four') in this course.
 ####Step Five:
 #####*In this step, We just need to use the step three souce code and add them in 'The assignment Four'. And we will got what we want.*
 
-See the source code and you may understand it. But please notice that if you input a image that you wanna test, it may have some problems. If that happened, please use the imageprepare() function in step three to reformat the input image. 
+See the source code and you may understand it.
+
+NOTICE:
+-If you input a image that you wanna test, it may have some problems. If that happened, please use the imageprepare() function in step three to reformat the input image. 
+
+- 'AS4.py'  will be trained the model each time when you running it and then test the input file(filename). So if you wanna test the simple directly, try to use the Saver() function to save as '.ckpt' and retore it when you test the image(Like step three did). 
 
 ![alt tag](https://github.com/haobangpig/Image-classify-using-own-images-with-tensorflow-/blob/master/images/The%20last%20result.png)
 Good luck for everything.
