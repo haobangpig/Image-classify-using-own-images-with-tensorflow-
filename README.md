@@ -16,7 +16,7 @@
   
 ###Steps for studying:
   
-|step|To do|
+|Step|To do|
 |------|----|
 |1|Understand the key concepts|
 |2|Understand the basic tutorial in Tensorflow(MNIST)|
@@ -26,7 +26,7 @@
 
 
 
-####Step one:
+####Step One:
 #####*Using google or baidu or anything you can, try to search everything about the four key words that we will use in this project.*
   Key Concept:
   * Deep Learning & Neural Network
@@ -45,7 +45,7 @@
   
   
   
-####Step two:
+####Step Two:
 #####*[Go to The tensorflow tutorial website and download the original the code and try to understand each of line](https://www.tensorflow.org/versions/r0.10/tutorials/mnist/beginners/index.html).*
 
   You may follow some steps in here to understand more about the tensorflow
