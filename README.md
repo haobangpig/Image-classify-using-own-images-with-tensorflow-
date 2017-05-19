@@ -1,6 +1,6 @@
 # Image classify using own images with tensorflow
 
-####Introduction:
+#### Introduction:
   If you are the new user in tensorflow (just like me two weeks ago), you can see what is the fantasty feature in [here] (https://www.tensorflow.org/versions/r0.10/tutorials/image_recognition/index.html)
   
   I have already test it:
@@ -11,10 +11,10 @@
   
   So in this project, it will make a really simple demonstrate about it.
   
-###Main Idea:
+### Main Idea:
   This is about using your own images(JPEG or PNG) and created labels with tensorflow.
   
-###Steps for studying:
+### Steps for studying:
   
 |Step|To do|
 |------|----|
@@ -26,16 +26,16 @@
 
 
 
-####Step One:
-#####*Using google or baidu or anything you can, try to search everything about the four key words that we will use in this project.*
+#### Step One:
+##### *Using google or baidu or anything you can, try to search everything about the four key words that we will use in this project.*
   Key Concept:
   * Deep Learning & Neural Network
   * Softmax Regression 
   * Gradient descent
   * CNN(Convolutional Neural Network)
 
-####Review:
-#####*Pleae use your own language to illustrate:*
+#### Review:
+##### *Pleae use your own language to illustrate:*
   
   (If you can make the others who never hear these concepts to understand with a simple example, that mean you had already understand these.)
   * What is the Deep learning & Neural Network
@@ -45,8 +45,8 @@
   
   
   
-####Step Two:
-#####*[Go to The tensorflow tutorial website and download the original the code and try to understand each of line](https://www.tensorflow.org/versions/r0.10/tutorials/mnist/beginners/index.html).*
+#### Step Two:
+##### *[Go to The tensorflow tutorial website and download the original the code and try to understand each of line](https://www.tensorflow.org/versions/r0.10/tutorials/mnist/beginners/index.html).*
 
   You may follow some steps in here to understand more about the tensorflow
   * [HelloWorld in tensorflow] (https://www.tensorflow.org/versions/r0.10/get_started/index.html) 
@@ -58,8 +58,8 @@
 
 
 
-####Step Three: Understand this example and edit the output as you wish
-#####*In this step, it is really important in this project and it will help you to understand what is the structure in the tensorflow.*
+#### Step Three: Understand this example and edit the output as you wish
+##### *In this step, it is really important in this project and it will help you to understand what is the structure in the tensorflow.*
 
 ##### At the beginning, I wanna use its own test data and output the possibility after I insert a test image. But I was totally no idea how to do it. But luckly, I found this blog: [Using TensorFlow to create your own handwriting recognition engine] (https://niektemme.com/2016/02/21/tensorflow-handwriting/). Thanks the writer(Niek Temme) who help me solved this problem. I just directly upload his code on this project. Above that, I add some functions in his source code to content with my demand.  
 
@@ -70,7 +70,7 @@ The logical in the source core is quite sample, I will illustrate with the pseud
 
 
 
-#####Create_model
+##### Create_model
 
 ```
 1>import the dataset 
@@ -82,7 +82,7 @@ The logical in the source core is quite sample, I will illustrate with the pseud
 7>output the training_test posibility
 ```
 
-#####Prediction
+##### Prediction
 
 ```
 1>import the test image from your computer
@@ -103,8 +103,8 @@ And the result will be like this :
   
 
 
-####Step Four:
-#####*In this step, you need to know the CNN and how it works.*
+#### Step Four:
+##### *In this step, you need to know the CNN and how it works.*
 Check this [course](https://www.udacity.com/course/deep-learning--ud730)to understand more about the CNN.
 And check the assignment('Assignment one' and 'Assignment four') in this course.
 'The assignment one' are the great example to illustrate how to convert the images to the dataset and store into the .pickle file.
@@ -113,8 +113,8 @@ And check the assignment('Assignment one' and 'Assignment four') in this course.
 
 
 
-####Step Five:
-#####*In this step, We just need to use the step three souce code and add them in 'The assignment Four'. And we will got what we want.*
+#### Step Five:
+##### In this step, We just need to use the step three souce code and add them in 'The assignment Four'. And we will got what we want.*
 
 See the source code and you may understand it.
 
